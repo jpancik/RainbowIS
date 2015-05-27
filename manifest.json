@@ -1,7 +1,7 @@
 {
 "name":"Rainbow IS",
 "description":"Should be colorful!",
-"version":"2",
+"version":"3",
 "manifest_version":2,
 "content_scripts": [
     {

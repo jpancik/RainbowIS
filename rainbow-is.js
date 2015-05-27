@@ -11,7 +11,7 @@ $(".data1 tr").each( function(index, elem) {
 	if(grade[0] && $(grade[0]).text() !== " ") {
 		color = null;
 		
-		switch($(grade[0]).text()) {
+		switch($(grade[0]).text().slice(-1)) {
 		case "A":
 			color = colors[0];
 			break;
