@@ -1,6 +1,6 @@
 console.log("Rainbow IS!")
 
-colors = ["red", "orange", "yellow", "green", "cyan", "RoyalBlue", "MediumOrchid", "pink"];
+colors = ["red", "orange", "yellow", "green", "cyan", "RoyalBlue", "MediumOrchid	", "pink"];
 shuffle(colors);
 
 colorOfFailed = colors[getRandomInt(0, colors.length)];
@@ -28,7 +28,7 @@ $(".data1 tr").each( function(index, elem) {
 			color = colors[4];			
 			break;
 		case "F":
-			color = colors[indexOfFailed];			
+			color = colorOfFailed;			
 			break;
 		case "P":
 			color = colors[5];
@@ -37,10 +37,10 @@ $(".data1 tr").each( function(index, elem) {
 			color = colors[6];			
 			break;
 		case "N":
-			color = colors[indexOfFailed];			
+			color = colorOfFailed;			
 			break;
 		case "-":
-			color = colors[indexOfFailed];			
+			color = colorOfFailed;			
 			break;
 		}
 		
