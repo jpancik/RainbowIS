@@ -1,0 +1,15 @@
+{
+"name":"Rainbow IS",
+"description":"Should be colorful!",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["https://is.muni.cz/auth/student/moje_znamky*"],
+      "js": ["jquery-2.1.4.min.js", "rainbow-is.js"]
+    }
+  ],
+"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+		   "128": "icon128.png" }
+}
